@@ -130,11 +130,11 @@ const img = ['admin', 'ban', 'cowner', 'Faketumber', 'imagen', 'imgregla', 'M18'
 const imgramdon = img[Math.floor(Math.random() * img.length)]
 //CREADOR
 const yo = `𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊`
-const Githu = 'https://github.com/thechoute'
-const Youtube = 'https://www.youtube.com/c/thechout'
-const WhatsApp = '18299897014'
-const instagram = 'https://www.instagram.com/the_choute_/'
-const WGrupo = 'https://chat.whatsapp.com/H6n4BdMISuyC12zUEVL08n'
+const Githu = 'https://github.com'
+const Youtube = 'https://www.youtube.com/c/'
+const WhatsApp = '94704295532'
+const instagram = 'https://www.instagram.com/the_ce_/'
+const WGrupo = 'https://chat.whatsapp.com/H6n4BdMISuyC12z8n'
 
 //══════════════════ FUNCION DE REGISTRO ════════════════════════════════════\\
 const getRegisteredRandomId = () => {
@@ -250,7 +250,7 @@ key : {
                     },
    message: {
                 liveLocationMessage: {
-                caption: `🔥🔥𝕿𝖍ٌ𝖊  𝕮𝖍𝖔𝖚𝖙𝖊🔥🔥`,
+                caption: `𝘙𝘖𝘔𝘌𝘖 𝘒𝘐𝘕𝘎 `,
                 jpegThumbnail: fs.readFileSync('./media/imagen/youtube-mi.jpg'),
                       }
                     }
@@ -885,7 +885,7 @@ _Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas 
 ☎️ *Número* : @${ownerNumber.split("@")[0]}
 🌐 *Instagram* : ${instagram}
 🌐 *Github:* ${Githu}
-🌐 *Youtube:* youtube.com/c/thechout`
+🌐 *Youtube:* youtube.com/c/thhout`
 
 const registro = `
 *PORFAVOR ESCRIBE BIEN EL FORMATO DE REGISTRO:* 
@@ -993,10 +993,10 @@ if (test.includes(`grupo`)){
   💭:Se ayuda a quienes tengas problemas
   
   Grupo 1 : 
-  _https://chat.whatsapp.com/H6n4BdMISuyC12zUEVL08n_
+  _https://chat.whatsapp.com/H6n4ISuyC12zUEVL08n_
   
   Grupo 2 : 
-  _https://chat.whatsapp.com/GQnptaCf21IEvLJ69RPT4a_`, MessageType.text, {quoted: choute})
+  _https://chat.whatsapp.com/GnptaCf1IEvLJ69RPT4a_`, MessageType.text, {quoted: choute})
   addFilter(from)
     addLevelingLevel(sender, 5)	}}
 
@@ -1176,7 +1176,7 @@ if (choute.message.listResponseMessage){
     imageMsg = (await leo.prepareMessageMedia(fs.readFileSync(`./media/imagen/bot-baby.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
     buttonsMessage = {
     contentText: `${txtt}`,
-    footerText: '© Creator 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊', imageMessage: imageMsg,
+    footerText: '© Creator 𝘙𝘖N𝘌𝘖', imageMessage: imageMsg,
     buttons: buttons1,
     headerType: 4}
     all = leo.prepareMessageFromContent(from, { buttonsMessage }, { quoted: choute, contextInfo: { mentionedJid: [sender,ownerNumber]} })
